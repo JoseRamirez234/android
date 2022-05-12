@@ -1,0 +1,116 @@
+body{
+    margin: 0%;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#android{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    z-index: 1;
+}
+
+#wallpaper{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+#top{
+    width: 100%;
+    height: 50vh;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchbar{
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: black;
+    margin-top: 20px;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#googlelogo{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+#microgoogle{
+    height: 50%;
+    margin-right: 10px;
+}
+
+#hour{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    color: white;
+    font-weight: 100
+}
+
+#climatetime{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#sol{
+    height: 70%;
+    margin-right: 10px;
+}
+
+#down{
+    width: 100%;
+    height: 50vh;
+    z-index: 2;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#appscentrales{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#appscentrales img{
+    height: 80%;
+}
+
+button{
+    height: 100%;
+    background-color: transparent; 
+    border: none;
+    outline: none;
+}
+
+#d{
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
